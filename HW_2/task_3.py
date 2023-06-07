@@ -5,10 +5,11 @@ import fractions
 
 
 def parse_fraction(fraction_str):
-    parts = fraction_str.split('/')
-    numerator = int(parts[0])
-    denominator = int(parts[1])
-    return numerator, denominator
+    # parts = fraction_str.split('/')
+    # numerator = int(parts[0])
+    # denominator = int(parts[1])
+    # return numerator, denominator
+    return map(int, fraction_str.split('/'))
 
 
 def sum_mult(fraction_1, fraction_2):
