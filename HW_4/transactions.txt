@@ -1,2 +1,1 @@
 deposit 5000
-withdraw 500
