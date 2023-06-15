@@ -82,7 +82,7 @@ def main():
         else:
             print("Invalid input. Please enter a valid choice.")
 
-    with open("transactions.txt", "w") as file:
+    with open("transactions.txt", "w", encoding='utf-8') as file:
         for transaction in transactions:
             file.write(f"{transaction[0]} {transaction[1]}\n")
 
