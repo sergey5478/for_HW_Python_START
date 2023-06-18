@@ -8,7 +8,7 @@
 
 def create_dict(arg_1, arg_2, arg_3):
     """Однострочный генератор словаря"""
-    dict_bonus = {arg_1[i]: arg_2[i] * float(arg_3[i].replace('%', '')) for i in range(len(arg_1))}
+    dict_bonus = {arg_1[i]: arg_2[i] * float(arg_3[i][:-1]) for i in range(len(arg_1))}
     return dict_bonus
 
 
