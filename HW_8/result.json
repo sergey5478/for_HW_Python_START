@@ -1,0 +1,55 @@
+[
+  {
+    "name": "data.csv",
+    "type": "file",
+    "size": 100,
+    "parent_directory": "ktest2"
+  },
+  {
+    "name": "example_1.json",
+    "type": "file",
+    "size": 0,
+    "parent_directory": "ktest2"
+  },
+  {
+    "name": "example_2.csv",
+    "type": "file",
+    "size": 0,
+    "parent_directory": "ktest2"
+  },
+  {
+    "name": "example_3.pickle",
+    "type": "file",
+    "size": 0,
+    "parent_directory": "ktest2"
+  },
+  {
+    "name": "example_4.json",
+    "type": "file",
+    "size": 0,
+    "parent_directory": "ktest2"
+  },
+  {
+    "name": "output.json",
+    "type": "file",
+    "size": 286,
+    "parent_directory": "ktest2"
+  },
+  {
+    "name": "pppp",
+    "type": "directory",
+    "size": 286
+  },
+  {
+    "name": "output.json",
+    "type": "file",
+    "size": 286,
+    "parent_directory": "ktest2\\pppp"
+  },
+  {
+    "name": "user.pickle",
+    "type": "file",
+    "size": 128,
+    "parent_directory": "ktest2"
+  }
+]

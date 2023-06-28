@@ -1,0 +1,10 @@
+name,type,size,parent_directory
+data.csv,file,100,ktest2
+example_1.json,file,0,ktest2
+example_2.csv,file,0,ktest2
+example_3.pickle,file,0,ktest2
+example_4.json,file,0,ktest2
+output.json,file,286,ktest2
+pppp,directory,286,
+output.json,file,286,ktest2\pppp
+user.pickle,file,128,ktest2
